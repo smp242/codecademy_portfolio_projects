@@ -1,8 +1,6 @@
 import csv
 from imghdr import tests
 
-from pandas.core.array_algos.putmask import extract_bool_array
-
 with open('insurance.csv', newline='') as insurance_csv:
     reader = csv.DictReader(insurance_csv)
     headers = reader.fieldnames
